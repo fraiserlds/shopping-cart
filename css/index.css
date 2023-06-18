@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu {
+    background-color:  rgb(172, 162, 201);
+    padding: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.menu li {
+    display: inline;
+    margin: 20px;
+}
+
+.menu li a:hover {
+    color:  rgb(139, 128, 173);
+}
+
+/* product */
+
+.product-container {
+    width: 100%;
+    display: flex;
+}
+
+.product-child {
+    width: calc(100% / 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    box-shadow: 1px 1px 5px rgb(0 0 0/ 15%);
+    padding: 10px;
+}
+
+.product-child img {
+    width: 50%;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.price-container {
+    margin: 10px 0;
+}
+
+.price {
+    color: rgb(172, 162, 201);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sale {
+    color: rgb(73, 73, 75);
+}
+
+.product-child button {
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80%;
+    background-color: rgb(172, 162, 201);
+    font-weight: bold;
+}
+
+.product-child button:hover {
+    background-color:  rgb(136, 126, 168);
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    background-color: rgb(142, 132, 172);
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col {
+    width: calc(100% / 4);
+    margin: 20px;
+}
+
+.col-title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.col-content {
+    line-height: 1.5;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.zalo {
+    position: fixed;
+    width: 70px;
+    left: 94%;
+    top: 74%
+}
