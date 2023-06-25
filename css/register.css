@@ -108,4 +108,34 @@
     margin-top: 70px;
 }
 
+.zalo {
+    position: fixed;
+    width: 70px;
+    left: 94%;
+    top: 74%
+}
+
+#botToTop {
+    font-size: 40px;
+    color: rgb(181, 162, 219);
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    cursor: pointer;
+    display: none;
+    animation: updown linear 2s infinite;
+}
+
+@keyframes updown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+#botToTop:hover {
+    color: rgb(127, 104, 173);
+}
 
